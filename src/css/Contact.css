@@ -1,0 +1,62 @@
+/* src/components/Contact.css */
+.contact {
+    padding: 3rem 1.5rem;
+    background-color: #001f3f;
+
+    color: white;
+    text-align: left;
+
+
+
+    margin: 0 auto;
+    height: 400px;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    /* Tamaño de fuente más pequeño */
+    margin-bottom: 0.8rem;
+}
+
+.contact p {
+    font-size: 1rem;
+    /* Reducir el tamaño de fuente de los párrafos */
+    margin: 0.4rem 0;
+    line-height: 1.6;
+    /* Mejorar la legibilidad */
+}
+
+.contact a {
+    color: #FF4136;
+    /* Rojo */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    display: inline-block;
+    /* Convertir a bloque en línea para mayor control */
+    margin-top: 0.5rem;
+    /* Espacio superior para los enlaces */
+}
+
+.contact a:hover {
+    color: #85144b;
+    /* Rojo oscuro */
+}
+
+@media (max-width: 768px) {
+    .contact {
+        padding: 2rem 1rem;
+        /* Reducir el relleno en pantallas más pequeñas */
+    }
+
+    .contact h2 {
+        font-size: 1.8rem;
+        /* Ajustar el tamaño de fuente en pantallas pequeñas */
+    }
+
+    .contact p,
+    .contact a {
+        font-size: 0.9rem;
+        /* Aún más pequeño en pantallas pequeñas */
+    }
+}

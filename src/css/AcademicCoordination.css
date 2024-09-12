@@ -1,0 +1,213 @@
+.academic-coordination {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #f0f8ff;
+  /* Fondo suave */
+  color: #001f3f;
+  height: 911px;
+}
+
+.coordination-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 30px;
+}
+
+.h1-cost {
+  margin-bottom: 50px;
+}
+
+.coordinator {
+  background-color: #0074d9;
+  /* Azul */
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 250px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  /* Transición para la animación */
+}
+
+.coordinator:hover {
+  transform: translateY(-10px);
+  /* Animación de subir al hacer hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  /* Sombra más grande al hacer hover */
+}
+
+.coordinator h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.coordinator p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.contact-details {
+  margin-top: 2rem;
+  color: #001f3f;
+  text-align: center;
+}
+
+.contact-details h4 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  margin-top: 40px;
+}
+
+.contact-details {
+  border-style: groove;
+  margin-top: 1rem;
+  width: 300px;
+}
+
+.contact-hours {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+}
+
+.btn-link {
+  color: #db0a0a;
+  font-size: 1rem;
+  font-weight: normal;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.btn-primary {
+  margin-top: 30px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-bottom: 40px;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-primary:focus {
+  outline: none;
+}
+
+.btn-primary:active {
+  transform: scale(0.98);
+}
+
+/* Styles for SweetAlert2 */
+.swal-container {
+  font-family: 'Arial', sans-serif;
+}
+
+.swal-popup {
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #e1e1e1;
+  width: 900px;
+}
+
+.swal-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.swal-html-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.swal-details {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.details-section {
+  flex: 1;
+  padding: 10px;
+}
+
+.section-title {
+  font-size: 18px;
+  color: #030303;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+.coordinator-info,
+.contact-info,
+.purpose-info {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.coordinator-info strong,
+.contact-info strong {
+  color: #6c6969;
+  margin-right: 5px;
+  /* Add space between strong and text */
+}
+
+.details-section:not(:last-child) {
+  border-right: 1px solid #ddd;
+  padding-right: 20px;
+}
+
+.purpose-section {
+  margin-top: 20px;
+}
+
+.purpose-info {
+  font-size: 16px;
+  color: #333;
+}
+
+
+/* Animación de derretimiento */
+@keyframes melt {
+  0% {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scaleY(0.1);
+    opacity: 0;
+  }
+}
+
+.melt-animation {
+  animation: melt 1s forwards;
+}
+
+
+
+
+.coordination-slide .coordination-details {
+  margin-top: 20px;
+}
+
+/* Puedes agregar más estilos aquí según tus necesidades */

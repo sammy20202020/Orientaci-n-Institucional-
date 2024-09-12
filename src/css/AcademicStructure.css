@@ -1,0 +1,63 @@
+/* src/components/AcademicStructure.css */
+.academic-structure {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.academic-structure h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+}
+
+.structure-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* Centra el contenido verticalmente */
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+
+}
+
+.structure-card:hover {
+    transform: scale(1.05);
+}
+
+.structure-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 10px;
+
+    transition: transform 0.3s ease-in-out;
+}
+
+.structure-card:hover .structure-image {
+    transform: scale(1.1);
+}
+
+.structure-info {
+    padding: 15px;
+}
+
+.structure-info h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.structure-info p {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #666;
+}

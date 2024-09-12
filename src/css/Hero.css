@@ -1,0 +1,81 @@
+/* src/components/Hero.css */
+@keyframes backgroundAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10rem 2rem;
+    background: linear-gradient(-45deg, #0b72cc, #0b72cc, #8b2bbf, #ff1b1b, #ff1b1b);
+    background-size: 400% 400%;
+    animation: backgroundAnimation 15s ease infinite;
+    color: white;
+    height: 100vh;
+}
+
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #f60000;
+    /* Color de fondo del botón */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+    /* Color de fondo del botón en hover */
+}
+
+
+/* Estilo de cada lápiz */
+.pencil {
+    position: absolute;
+    font-size: 24px;
+    /* Tamaño del icono de lápiz */
+    animation-name: fall;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+
+/* Animación de caída */
+@keyframes fall {
+    0% {
+        top: -10%;
+        opacity: 1;
+    }
+
+    100% {
+        top: 100%;
+        opacity: 0;
+    }
+}
