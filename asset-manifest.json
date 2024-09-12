@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Orientaci-n-Institucional-/static/css/main.f9638ea2.css",
+    "main.js": "/Orientaci-n-Institucional-/static/js/main.a00e53c3.js",
+    "static/js/453.503c6fcc.chunk.js": "/Orientaci-n-Institucional-/static/js/453.503c6fcc.chunk.js",
+    "static/media/lejandra.png": "/Orientaci-n-Institucional-/static/media/lejandra.4c852cf7a2c15a8c29fb.png",
+    "static/media/fa-solid-900.ttf": "/Orientaci-n-Institucional-/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/fa-brands-400.ttf": "/Orientaci-n-Institucional-/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/fa-solid-900.woff2": "/Orientaci-n-Institucional-/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/vicerrectora.jpg": "/Orientaci-n-Institucional-/static/media/vicerrectora.4b259d435dcb67d61586.jpg",
+    "static/media/rector.jpg": "/Orientaci-n-Institucional-/static/media/rector.50caff9d4ff0519d0ec8.jpg",
+    "static/media/fa-brands-400.woff2": "/Orientaci-n-Institucional-/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/fa-regular-400.ttf": "/Orientaci-n-Institucional-/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/fa-regular-400.woff2": "/Orientaci-n-Institucional-/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/fa-v4compatibility.ttf": "/Orientaci-n-Institucional-/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Orientaci-n-Institucional-/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "static/media/slick.svg": "/Orientaci-n-Institucional-/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Orientaci-n-Institucional-/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Orientaci-n-Institucional-/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Orientaci-n-Institucional-/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Orientaci-n-Institucional-/index.html",
+    "main.f9638ea2.css.map": "/Orientaci-n-Institucional-/static/css/main.f9638ea2.css.map",
+    "main.a00e53c3.js.map": "/Orientaci-n-Institucional-/static/js/main.a00e53c3.js.map",
+    "453.503c6fcc.chunk.js.map": "/Orientaci-n-Institucional-/static/js/453.503c6fcc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9638ea2.css",
+    "static/js/main.a00e53c3.js"
+  ]
+}
