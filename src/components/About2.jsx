@@ -11,7 +11,7 @@ const About2 = () => {
                 <div className="mission">
                     <h3>Misión</h3>
                     <p>
-                        Somos una comunidad universitaria bicultural que desarrolla profesionales competentes con una visión integral, innovadora y comprometida con la calidad.
+                        h  Somos una comunidad universitaria bicultural que desarrolla profesionales competentes con una visión integral, innovadora y comprometida con la calidad.
                     </p>
                 </div>
 
